@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#132221"
+              android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/equip_tv_name"
+                    style="@style/Equip_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F12CF1"
+                    android:text="子规啼"/>
+
+                <TextView
+                    android:id="@+id/equip_tv_strengthen"
+                    style="@style/Equip_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#8FBC8F"
+                    android:text="精炼等级:0/4"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/equip_tv_type"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F2F2F2"
+                android:text="近程武器"/>
+
+            <TextView
+                android:id="@+id/equip_tv_prop_basic"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F2F2F2"
+                android:text="体质+311\n根骨+125"/>
+
+            <TextView
+                android:id="@+id/equip_tv_prop_magic"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00C848"
+                android:text="阴性内功攻击提高531\n阴性内功会心等级提高185\n阴性内功会心效果提高84\n无双等级提高168"/>
+
+            <TextView
+                android:id="@+id/equip_tv_special_effect"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF8000"
+                android:text="装备：命中后获得水·灭虚气劲，自身提升内功攻击(7点)，可叠加十层，持续6秒。不可与该类其他气劲并存。"/>
+
+            <TextView
+                android:id="@+id/equip_tv_component"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9B9B9B"
+                android:text="文王·梨绢(1/5)\n文王·梨绢丝履\n文王·梨绢丝袖\n文王·梨绢裳\n文王·梨绢钗\n文王·梨绢绣带"/>
+
+            <TextView
+                android:id="@+id/equip_tv_component_value"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9B9B9B"
+                android:text="\n[2]施展阴性内功伤害招式，一定几率提高自身阴性内功基础攻击力10%，持续6秒\n[4]“玳弦急曲”伤害提高10%"/>
+
+            <TextView
+                android:id="@+id/equip_tv_quality"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF00"
+                android:text="品质等级1080"/>
+
+            <TextView
+                android:id="@+id/equip_tv_score"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF8000"
+                android:text="装备分数2333"/>
+
+            <TextView
+                android:id="@+id/equip_tv_school"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F2F2F2"
+                android:text="推荐门派：七秀(冰心诀)"/>
+
+            <TextView
+                android:id="@+id/equip_tv_drop_source"
+                style="@style/Equip_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:textColor="#F2F2F2"
+                android:text="获取：25人挑战永王行宫·花月别院·李白"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

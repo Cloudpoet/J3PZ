@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp">
+
+    <TextView
+        android:id="@+id/equip_item_tv_quality"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:text="1920"/>
+
+    <TextView
+        android:id="@+id/equip_item_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:text="天涯归梦"/>
+
+    <TextView
+        android:id="@+id/equip_item_tv_filter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:text="会心 破防 加速 命中"/>
+</LinearLayout>
